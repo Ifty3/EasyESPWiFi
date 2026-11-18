@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For EasyESPWiFi
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EasyESPWiFi	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+resetCredentials	KEYWORD2
+isConnected	KEYWORD2
+getSSID	KEYWORD2
+getIP	KEYWORD2
+getRSSI	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+EEPROM_CONFIG_SIZE	LITERAL1
+EEPROM_MAGIC_BYTE	LITERAL1
