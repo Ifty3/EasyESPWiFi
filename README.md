@@ -1,8 +1,33 @@
 # EasyESPWiFi
 
+[![Arduino Library Manager](https://img.shields.io/badge/Arduino_Library_Manager-EasyESPWiFi-00979C.svg?logo=arduino&logoColor=white)](https://github.com/Ifty3/EasyESPWiFi)
+[![Release](https://img.shields.io/github/v/release/Ifty3/EasyESPWiFi?color=brightgreen)](https://github.com/Ifty3/EasyESPWiFi/releases)
+[![Hardware: ESP32 | ESP8266](https://img.shields.io/badge/Hardware-ESP32%20%7C%20ESP8266-E7352C.svg?logo=espressif&logoColor=white)](https://www.espressif.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Lightweight, zero-dependency, cross-platform Wi-Fi manager and Captive Portal library designed specifically for **ESP32** and **ESP8266** microcontrollers.
 
 Eliminate hardcoded Wi-Fi credentials in your Arduino sketches. With a single line of code in `setup()`, `EasyESPWiFi` automatically handles stored credential retrieval, station connection, or fallback captive portal provisioning with a responsive Dark Mode Web UI.
+
+---
+
+## Installation
+
+### Method 1: Via Arduino Library Manager (Recommended)
+1. Open the **Arduino IDE** (version 1.8.x or 2.x).
+2. Go to **Sketch** &rarr; **Include Library** &rarr; **Manage Libraries...** (or press `Ctrl + Shift + I` / `Cmd + Shift + I`).
+3. Search for **EasyESPWiFi** in the search field.
+4. Select the latest version and click **Install**.
+
+### Method 2: Via Arduino CLI
+```bash
+arduino-cli lib install "EasyESPWiFi"
+```
+
+### Method 3: Manual Installation (ZIP)
+1. Download the latest release `.zip` archive from [GitHub Releases](https://github.com/Ifty3/EasyESPWiFi/releases).
+2. In Arduino IDE, navigate to **Sketch** &rarr; **Include Library** &rarr; **Add .ZIP Library...**
+3. Select the downloaded `.zip` file.
 
 ---
 
